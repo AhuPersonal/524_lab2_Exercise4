@@ -1,3 +1,7 @@
 language: python
-install: pip install git+git://github.com/AhuPersonal/524_lab2_Exercise4.git
-script: python findprimepackage/test.py
+install:
+ pip install git+git://github.com/AhuPersonal/524_lab2_Exercise4.git
+ pip install -U pytest
+script:
+ python findprimepackage/test.py
+ pytest findprimepackage/pytest.py
