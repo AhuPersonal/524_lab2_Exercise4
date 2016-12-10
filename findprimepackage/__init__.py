@@ -1,0 +1,1 @@
+from .findprime import find
